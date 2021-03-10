@@ -19,7 +19,7 @@ Created on Sun Apr 28 10:38:56 2019
 
 # Cómo importar las librerías
 import numpy as np
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import pandas as pd
 
 # Importar el data set
@@ -68,7 +68,6 @@ X_test = sc_X.transform(X_test)
 # Parte 2 - Construir la RNA
 
 # Importar Keras y librerías adicionales
-import keras
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout
